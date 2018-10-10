@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+{{ partial "head.html" . }}
+
+<body>
+
+    <div id="all">
+
+        <header>
+
+            {{ partial "nav.html" . }}
+
+        </header>
+
+        <div id="content">
+            <div class="container">
+
+                <div class="col-sm-6 col-sm-offset-3" id="error-page">
+
+                    <div class="box">
+
+                        <h3>We are sorry - this page is not here anymore</h3>
+                        <h4 class="text-muted">Error 404 - Page not found</h4>
+                        <a href="{{ .Site.BaseURL }}" class="btn btn-error">
+                            Go to Homepage
+                        </a>
+
+                    </div>
+
+
+                </div>
+                <!-- /.col-sm-6 -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /#content -->
+
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+</body>
+
+</html>

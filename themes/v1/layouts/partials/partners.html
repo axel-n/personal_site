@@ -1,0 +1,56 @@
+{{ if isset .Site.Params "partners" }} {{ if .Site.Params.partners.enable }}
+
+<section class="bar background-gray no-mb partners" id="partners">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ i18n "partnersTitle" }}</h2>
+                </div>
+
+                <div class="partners-grid">
+
+                    <!-- geektimes -->
+                    {{ if .Site.Params.partners.geektimes.enable }}
+                    <a href="{{ .Site.Params.partners.geektimes.link }}">
+                        <div class="partner partner1">
+                        </div>
+                    </a>
+                    {{ end }}
+
+                    <!-- vc.ru -->
+                    {{ if .Site.Params.partners.vc.enable }}
+                    <a href="{{ .Site.Params.partners.vc.link }}">
+                        <div class="partner partner2">
+                        </div>
+                    </a>
+                    {{ end }}
+
+                    <!-- bitcoin talk -->
+                    {{ if .Site.Params.partners.bitcoin_talk.enable }}
+                    <a href="{{ .Site.Params.partners.bitcoin_talk.link }}">
+                        <div class="partner partner3">
+                        </div>
+                    </a>
+                    {{ end }}
+
+                    <!-- boomstarter -->
+                    {{ if .Site.Params.partners.boomstarter.enable }}
+                    <a href="{{ .Site.Params.partners.boomstarter.link }}">
+                        <div class="partner partner4">
+                        </div>
+                    </a>
+                    {{ end }}
+
+                    
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- /.bar -->
+{{ end }} {{ end }}
