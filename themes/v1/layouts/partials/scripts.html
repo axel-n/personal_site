@@ -1,5 +1,8 @@
-<!-- стили по совету гугла валят проверки на гитлабе-->
-<link rel="stylesheet" type="text/css" href="/css/styles.css" />
+{{ $style := resources.Get "scss/styles.scss" | resources.ToCSS | resources.Minify }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
 
 <!-- all scripts -->
 <!-- <script defer src="/js/scripts.js"></script> -->
+
+
