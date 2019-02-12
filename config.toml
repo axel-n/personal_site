@@ -1,4 +1,5 @@
 baseURL = "https://anoshkin.space"
-languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "v1"
+
+[params]
+    yandexMetrika="0a0e4dc5daffac3a"

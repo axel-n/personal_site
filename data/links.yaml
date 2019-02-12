@@ -1,0 +1,11 @@
+- name: Mail
+  url: 'mailto:anoshkin.allex@gmail.com'
+
+- name: Github
+  url: 'https://github.com/axel-n/'
+
+- name: Codesignal
+  url: 'https://app.codesignal.com/profile/axel_n'
+
+- name: LinkedIn
+  url: 'https://www.linkedin.com/in/axel-a/'

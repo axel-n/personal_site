@@ -1,3 +1,5 @@
-# generate scss, ... by hugo
-resources/_gen/
+# npm packages
+node_modules/
 
+# generated hugo static files
+public/
