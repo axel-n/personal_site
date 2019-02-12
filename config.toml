@@ -1,7 +1,5 @@
 baseURL = "https://anoshkin.space"
 theme = "v1"
 
-publishDir = "docs"
-
 [params]
     yandexMetrika="0a0e4dc5daffac3a"
