@@ -1,7 +1,7 @@
 # Использовано
 - [bulma](http://bulma.io/) стили
 - [hugo](https://gohugo.io/) для правильного компилирования кода в html
-- [netlify](https://netlify.com/) для деплоя
+- [netlify](https://netlify.com/) для автоматического деплоя
 
 # Как сделать себе такой же
 - взять копию себе ```git clone https://github.com/axel-n/personal_site```
