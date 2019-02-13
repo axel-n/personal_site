@@ -1,3 +1,1 @@
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Hello Bulma!');
-});
+// custom js (dont forget include it in index.html)

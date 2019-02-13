@@ -12,7 +12,7 @@
     - если захотите изменять стили. нужно скачать npm пакеты
         - ```npm install```
         - ```npm start```
-- поправить код (meta tag) на яндекс метрику в config.toml
+- поправить код яндекс метрики в ```themes/v1/layouts/partials/yandexMetrika.html```
 - залить изменения в свой github/gitlab
 - [netlify](https://netlify.com/)
     - зарегаться

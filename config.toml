@@ -2,6 +2,6 @@ baseURL = "https://anoshkin.space"
 theme = "v1"
 
 [params]
-    yandexMetrika="0a0e4dc5daffac3a"
+    yandexMetrikaId="52367554"
     description="personal site"
     title="Anoshkin Alexey"
