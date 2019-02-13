@@ -3,3 +3,5 @@ theme = "v1"
 
 [params]
     yandexMetrika="0a0e4dc5daffac3a"
+    description="personal site"
+    title="Anoshkin Alexey"

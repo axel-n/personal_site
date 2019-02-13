@@ -4,3 +4,4 @@ node_modules/
 # generated hugo static files
 public/
 static/
+resources/
