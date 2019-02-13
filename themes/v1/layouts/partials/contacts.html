@@ -1,18 +1,23 @@
-<div class="hero-body">
-	<div class="container has-text-centered">
-		<p class="title">
-			Alexey Anoshkin
-		</p>
-		<p class="subtitle">
-			personal site
-		</p>
+<section class="hero {{ if .Site.Params.useUnsplashBackground }} bg-image {{ end }} is-dark is-fullheight">
+	<div class="hero-body">
 
-		<div class="buttons is-centered">
-			{{ range $.Site.Data.links }}
-				<span class="button is-link">
-					<a href="{{ .url }}">{{ .name }}</a>
-				</span>
-			{{end}}
+		<div class="container has-text-centered">
+			<div class="contacts-data">
+				<p class="title">
+					Alexey Anoshkin
+				</p>
+				<p class="subtitle">
+					links about me
+				</p>
+
+				<div class="buttons is-centered">
+					{{ range $.Site.Data.links }}
+					<span class="button is-link">
+						<a href="{{ .url }}">{{ .name }}</a>
+					</span>
+					{{end}}
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
+</section>

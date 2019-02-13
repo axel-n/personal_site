@@ -5,3 +5,4 @@ theme = "v1"
     yandexMetrikaId="52367554"
     description="personal site"
     title="Anoshkin Alexey"
+    useUnsplashBackground=true
