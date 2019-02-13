@@ -7,8 +7,12 @@
 			personal site
 		</p>
 
-		{{ range $.Site.Data.links }}
-			<a href="{{ .url }}" class="button is-link">{{ .name }}</a>
-		{{end}}
+		<div class="buttons is-centered">
+			{{ range $.Site.Data.links }}
+				<span class="button is-link">
+					<a href="{{ .url }}">{{ .name }}</a>
+				</span>
+			{{end}}
+		</div>
 	</div>
 </div>
