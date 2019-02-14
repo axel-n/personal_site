@@ -5,4 +5,7 @@ theme = "v1"
     yandexMetrikaId="52367554"
     description="personal site"
     title="Anoshkin Alexey"
+    githubLink="github.com/axel-n/personal_site"
+
     useUnsplashBackground=true
+    useFooter=true

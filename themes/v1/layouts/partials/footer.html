@@ -1,0 +1,14 @@
+{{ if .Site.Params.useFooter }}
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>This website using
+
+                <a href="https://bulma.io/" target="_blank">Bulma</a> +
+                <a href="https://gohugo.io/" target="_blank">Hugo</a> +
+                <a href="https://netlify.com/" target="_blank">Netlify</a>
+
+                <br>Source code on <a href="https://{{ .Site.Params.githubLink }}" target="_blank">Github</a>
+            </p>
+        </div>
+    </footer>
+{{ end }}
